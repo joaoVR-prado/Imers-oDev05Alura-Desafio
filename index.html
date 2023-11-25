@@ -1,0 +1,48 @@
+<html>
+<link rel="stylesheet" href="./assets/css/style.css">
+<script src="./assets/js/index.js"></script>
+<head>
+  <title>
+    Imersão Dev
+  </title>
+</head>
+
+<body>
+  <div>
+    <div class = "acimaTabela">
+      <h1>Classificação Alura</h1>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th> Classificação </th>
+          <th> - </th>
+          <th>Nome</th>
+          <th>Pontos</th>
+          <th>Partidas</th>
+          <th>Vitórias</th>
+          <th>Empates</th>
+          <th>Derrotas</th>
+          <th> GM </th>
+          <th> GS </th>
+          <th> SG </th>
+        </tr>
+      </thead>
+      <tbody id="tabelaTimes">
+      </tbody>
+    </table>
+    <div class="abaixoTabela">
+    </div>
+    <div>
+      <label> Selecione os Times: </label>
+      <select id="selectTimeA"> </select>
+      <input type="number" id="golsA" placeholder="Coloque o Placar do time A">
+      <label> X </label>
+      <select id = "selectTimeB"></select>
+      <input type="number" id="golsB" placeholder="Coloque o Placar do time B">
+      <button onclick="mudarSaldo()"> Registrar resultado </button>
+    </div>
+  </div>
+</body>
+
+</html>
